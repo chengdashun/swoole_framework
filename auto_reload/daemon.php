@@ -3,7 +3,7 @@
  *
  * 监控项目文件 如果文件有更新则reload app_server
  *
- * php /data/wwwroot/swoole_framework_demo/auto_reload/daemon.php
+ * php /data/wwwroot/swoole_framework/auto_reload/daemon.php
  *
  */
 

@@ -1,4 +1,7 @@
 <?php
+/**
+ * php /data/wwwroot//swoole_framework/examples/app_server.php start -d
+ */
 define('DEBUG', 'on');
 define('WEBPATH', realpath(__DIR__ . '/../'));
 require dirname(__DIR__) . '/libs/lib_config.php';
