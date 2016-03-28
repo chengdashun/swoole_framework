@@ -3,7 +3,7 @@
  *
  * 监控项目文件 如果文件有更新则reload app_server
  *
- * php /data/wwwroot/swoole_framework_demo/auto_reload/daemon.php
+ * /data/php5.6.18/bin/php /data/wwwroot/swoole_framework_demo/auto_reload/daemon.php
  *
  */
 
@@ -16,7 +16,7 @@ if (!empty($appServerPid)) {
     $kit->watch(__DIR__ . '/../..');
     $kit->run();
 } else {
-    echo 'Not Found app_server.php';
+    echo "Not Found app_server.php\n";
 }
 
 
